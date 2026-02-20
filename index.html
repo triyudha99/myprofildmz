@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Syahputra - Graphic Designer & Web Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <section class="screen" id="home-section">
+    <div class="container">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" title="Toggle Dark/Light Mode">
+            <img src="IMAGESJALAMAN1/lightsun.png" alt="Dark Mode" class="theme-icon moon-icon">
+            <img src="IMAGESJALAMAN1/bulannight.png" alt="Light Mode" class="theme-icon sun-icon">
+        </button>
+
+        <!-- Left Section: Photo -->
+        <div class="left-section">
+            <div class="profile-image profile-image-home">
+                <img src="IMAGESJALAMAN1/oxfordfotoY.png" alt="Muhammad Surputra">
+            </div>
+        </div>
+
+        <!-- Right Section: Content -->
+        <div class="right-section">
+            <!-- Hamburger Menu Button (Mobile Only) -->
+            <button class="hamburger-btn" id="hamburger-btn">
+                <img src="mobileversion/burgerr1.png" 
+                     data-open="mobileversion/burgerr1.png"
+                     data-close="mobileversion/xxpng.png"
+                     class="hamburger-icon"
+                     id="hamburger-icon">
+            </button>
+            
+            <!-- Navigation Menu -->
+            <div class="nav-menu">
+                <button class="nav-item">HOME</button>
+                <button class="nav-item">ABOUT ME</button>
+                <button class="nav-item">MY WORKS</button>
+                <button class="nav-item">CONTACT</button>
+            </div>
+            
+            <!-- Mobile Sidebar Menu -->
+            <div class="mobile-sidebar" id="mobile-sidebar">
+               
+                <div class="mobile-nav-menu">
+                    <button class="mobile-nav-item">HOME</button>
+                    <button class="mobile-nav-item">ABOUT ME</button>
+                    <button class="mobile-nav-item">MY WORKS</button>
+                    <button class="mobile-nav-item">CONTACT</button>
+                </div>
+            </div>
+            <div class="mobile-overlay" id="mobile-overlay"></div>
+
+            <!-- Content -->
+            <div class="home-content">
+                <h1>MUHAMMAD SYAHPUTRA</h1>
+                <p class="subtitle">CREATIVE FRONT-END WEB</p>
+                <div class="description">
+                    <p>I specialize in building modern web interfaces that merge visual design with functional code. Through a vibe-driven development approach, I focus on delivering clean, responsive, and engaging front-end experiences that balance creativity with usability.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+
+    <!-- My Works Container -->
+    <section class="screen" id="works-section">
+    <div class="container" id="myworks-container">
+       
+        <!-- Left Section: Photo -->
+        
+        <div class="left-section">
+            <div class="works-pill-title">MY SKILLS</div>
+            <div class="profile-image profile-image-works">
+                <img src="IMAGEHALAMAN2/mockup9ogo6.png" alt="Works">
+            </div>
+        </div>
+
+        <!-- Right Section: My Works Content -->
+        <div class="right-section">
+            <!-- My Works Content -->
+            <div class="myworks-content">
+                <div class="chart-card">
+                    <canvas id="worksChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- About Me Container -->
+    <section class="screen" id="about-section">
+        <div class="container" id="about-container">
+            <!-- Left Section: Header + Text -->
+            <div class="left-section">
+                <div class="about-pill-title">ABOUT ME</div>
+                <div class="about-status-bar">
+                    <span class="about-status-icon">⭑⭑⭑⭑</span>
+                    <span class="about-status-text">INTJ-A </span>
+                    <span class="about-status-separator">|</span>
+                    <span class="about-status-text">ARIES</span>
+                </div>
+                <div class="about-text">
+                    <p>I am a passionate IT enthusiast with a strong interest in programming and technology development. I enjoy building efficient, user-friendly, and practical digital solutions that solve real-world problems.</p>
+                    <p>With experience in web development and system design, I continuously improve my technical skills and stay updated with the latest technology trends. I am particularly interested in software development, database management, and system integration.</p>
+                </div>
+            </div>
+            <!-- Right Section: Photo -->
+            <div class="right-section">
+                <button type="button" class="about-icon" id="profile-image-btn">
+                    <img src="profil/tombol4.png" alt="Ganti foto" />
+                </button>
+            
+                <div class="profile-image profile-image-about">
+                    <img id="about-profile-img" src="profil/gambarwebbirutr.png" alt="About me" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Container -->
+    <section class="screen" id="contact-section">
+        <div class="container" id="contact-container">
+            <div class="left-section">
+                <div class="contact-pill-title">CONTACT</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-top-bar"></div>
+                <div class="contact-grids-wrapper">
+                    <div class="contact-grid">
+                        <div class="contact-box-item">
+                            <a href="https://wa.me/6281278731157" target="_blank" rel="noopener noreferrer">
+                                <img src="contactimages/wasap.png" alt="WhatsApp" />
+                            </a>
+                        </div>
+                        <div class="contact-middle">
+                            <div class="contact-box-item">
+                                <a href="https://www.linkedin.com/in/muhammad-syahputra-093526333?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">
+                                    <img src="contactimages/lindkdn.png" alt="LinkedIn" />
+                                </a>
+                            </div>
+                            <div class="contact-box-item">
+                                <a href="mailto:muhammadsyahputra963@gmail.com">
+                                    <img src="contactimages/pesan.png" alt="Email" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-box-item">
+                            <a href="https://www.instagram.com/dmz_triyuda?igsh=MWppeWN2enlqZWQ4bQ==" target="_blank" rel="noopener noreferrer">
+                                <img src="contactimages/igs1.png" alt="Instagram" />
+                            </a>
+                        </div>
+                        <!-- TEXT -->
+    <div class="contact-text">
+        Let's connect with me ✨
+    </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Chart.js code for My Works
+        const worksData = {
+            labels: [
+                "WEB DESIGN",
+                "GRAPHIC DESIGN",
+                "PROBLEM SOLVING",
+                "FRONT-END DEV",
+                "MS OFFICE SUITE",
+                "ENGLISH LANGUAGE"
+            ],
+            datasets: [
+                {
+                    data: [60, 65, 75, 65, 75, 70],
+                    backgroundColor: "#59f1ff",
+                    borderRadius: 8,
+                    barThickness: 24,
+                    stack: "stack1"
+                },
+                {
+                    data: [40, 35, 25, 45, 25, 30],
+                    backgroundColor: "#eeeeee",
+                    borderRadius: 8,
+                    barThickness: 24,
+                    stack: "stack1"
+                }
+            ]
+        };
+
+        const worksConfig = {
+            type: "bar",
+            data: worksData,
+            options: {
+                indexAxis: "y",
+                animation: {
+                    duration: 2000,
+                    easing: 'easeInOutQuart',
+                    delay: function(context) {
+                        return context.dataIndex * 300;
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        enabled: true,
+                        callbacks: {
+                            label: function(context) {
+                                return context.parsed.x + '%';
+                            }
+                        }
+                    }
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        stacked: true,
+                        display: false,
+                        max: 100
+                    },
+                    y: {
+                        stacked: true,
+                        grid: { display: false }, 
+                        ticks: {
+                            color: "var(--text-color)",
+                            font: { size: 13, weight: "bold" }
+                        }
+                    }
+                },
+                onHover: function(event, activeElements) {
+                    event.native.target.style.cursor = activeElements.length > 0 ? 'pointer' : 'default';
+                }
+            }
+        };
+
+        new Chart(document.getElementById("worksChart"), worksConfig);
+    </script>
+</body>
+</html>

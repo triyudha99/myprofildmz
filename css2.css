@@ -1,0 +1,457 @@
+/* CSS khusus untuk halaman MY WORKS */
+
+#myworks-container {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/* Biar foto & chart sejajar dan tidak "lompat" */
+
+#myworks-container .chart-card {
+    margin-top: 5px;
+}
+.profile-image-works{
+    margin-top: 12px;
+}
+
+/* Judul "MY WORKS" di atas foto (style seperti nav di HOME) */
+#myworks-container .works-pill-title {
+    background-color: #59f1ff;
+    color: #fff;
+    padding: 14px 34px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+   
+}
+
+/* Perbesar area chart supaya bar tidak terlihat kecil */
+#myworks-container .chart-card {
+    height: 420px;
+}
+
+#myworks-container .chart-card canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.myworks-content h1 {
+    font-family: 'SAIBA-45', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.myworks-content .subtitle {
+    font-family: 'Interbold', Arial, sans-serif;
+    font-size: 22px;
+    color: var(--subtitle-color);
+    margin-top: -10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.myworks-content .description {
+    font-family: 'Interbold', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 10px;
+    color: var(--text-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+.myworks-content .description p {
+    margin-bottom: 8px;
+}
+
+/* ABOUT ME container (kontainer ketiga) - struktur sama dengan HOME/MY WORKS */
+#about-container {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#about-container .about-pill-title {
+    background-color: #59f1ff;
+    color: #fff;
+    padding: 14px 34px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+#about-container .about-status-bar {
+    background-color: #59f1ff;
+    color: #fff;
+    padding: 10px 24px;
+    min-width: 520px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+
+    position: absolute;
+    top: 24px;
+    right: 40px;
+}
+
+#about-container .about-status-icon {
+    font-size: 14px;
+}
+
+#about-container .about-status-text {
+    text-transform: uppercase;
+}
+
+#about-container .about-status-separator {
+    opacity: 0.7;
+}
+
+#about-container .left-section {
+    align-items: flex-start;
+    flex: 0 0 550px;
+}
+
+#about-container .about-text {
+    font-family: 'Interbold', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+#about-container .about-text p {
+    margin-bottom: 15px;
+}
+
+#about-container .right-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile-image-about {
+    margin-top: 12px;
+    width: 260px;
+    /* height: 280px; */
+    margin-left: auto;
+    margin-right: 50px;
+    flex-shrink: 0;
+}
+
+.profile-image-about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-icon {
+    margin-top: 200px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.about-icon:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+}
+
+.about-icon:active {
+    transform: scale(0.98);
+}
+
+.about-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+/* CONTACT container (kontainer keempat) */
+#contact-container {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+#contact-container .left-section {
+    flex: 0 0 auto;
+    width: 100%;
+    align-items: flex-start;
+}
+
+#contact-container .contact-pill-title {
+    background-color: #59f1ff;
+    color: #fff;
+    padding: 14px 34px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    align-self: flex-start;
+}
+
+#contact-container .contact-content {
+    background-color: #efefef;
+    border-radius: 15px;
+    padding: 20px 20px;
+    width: 100%;
+    margin-top: -10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#contact-container .contact-top-bar {
+    background-color: #59f1ff;
+    height: 30px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+#contact-container .contact-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#contact-container .contact-grid {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    width: auto;
+    max-width: 60%; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* ← ubah jadi 4 */
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+#contact-container .contact-text {
+    flex: 01;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    font-family:'Interbold', sans-serif;
+    font-size: clamp(18px, 2vw, 26px);
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+#contact-container .contact-title {
+    font-family: 'SAIBA-45', Arial, sans-serif;
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+
+#contact-container .contact-description {
+    font-family: 'Interbold', Arial, sans-serif;
+    font-size: clamp(13px, 1.3vw, 15px);
+    line-height: 1.7;
+    color: var(--text-color);
+    margin: 0;
+    word-wrap: break-word;
+}
+
+#contact-container .contact-box-item {
+    background-color: #59f1ff;
+    border-radius: 10px;
+    min-width: 120px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+#contact-container .contact-box-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    background-color: var(--nav-hover);
+}
+
+#contact-container .contact-box-item img {
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.25s ease;
+}
+
+#contact-container .contact-box-item:hover img {
+    transform: scale(1.1);
+}
+
+#contact-container .contact-middle {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+#contact-container .contact-middle .contact-box-item {
+    height: auto;
+    min-height: 120px;
+}
+
+/* Mobile Responsive untuk About Me */
+@media (max-width: 768px) {
+    #about-container .left-section {
+        flex: 0 0 auto;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    #about-container .about-pill-title {
+        margin-bottom: 15px;
+    }
+
+    #about-container .about-status-bar {
+        position: relative;
+        top: auto;
+        right: auto;
+        min-width: auto;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #about-container .right-section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .profile-image-about {
+        margin-top: -50px;
+        margin-left: auto;
+        margin-right: auto;
+        order: 1;
+    }
+
+    .about-icon {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
+     /* ===============================
+   CONTACT MOBILE ONLY
+   =============================== */
+   #contact-container .contact-grid{
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    overflow:hidden;
+
+    /* penting */
+    /* grid-template-columns:repeat(3,minmax(0,1fr)); */
+    grid-template-columns: repeat(3,1fr);
+  }
+  #contact-container .contact-text{
+    grid-column:1/-1;
+    text-align:center;
+    padding-left:0;
+    margin-top:10px;
+}
+  #contact-container .contact-box-item{
+    min-width:0; /* ⬅️ wajib */
+  }
+
+  #contact-container .contact-content{
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+
+
+  /* kotak selalu proporsional */
+  #contact-container .contact-box-item{
+    aspect-ratio:1 / 1; /* ⬅️ ini kunci utama */
+    width:100%;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  /* ukuran icon mengikuti ukuran kotak */
+  #contact-container .contact-box-item img{
+    width:55%;
+    height:auto;
+    max-width:none;
+    max-height:none;
+  }
+
+  /* middle tetap vertikal */
+  #contact-container .contact-middle{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    gap:8px;
+  }
+  #contact-container .contact-box-item{
+    display:grid;
+    place-items:center; /* center horizontal + vertical */
+  }
+
+  #contact-container .contact-box-item a{
+    display:grid;
+    place-items:center;
+    width:100%;
+    height:100%;
+  }
+
+  #contact-container .contact-box-item img{
+    width:55%;
+    height:auto;
+    object-fit:contain;
+  }
+  
+    
+   
+} 
